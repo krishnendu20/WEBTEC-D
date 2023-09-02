@@ -1,0 +1,45 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+body{
+
+    background: rgb(188, 232, 251);
+ 
+font-family: 'Poppins', sans-serif;
+}
+#cover-img{
+    height: 400px;
+    width: 100%;
+}#profile-img{
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+#update_profile{
+    position: relative;
+    top: -33px;
+    cursor: pointer;
+    left: 93px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.1);
+    transform: translate(-50%, -50%);
+}
+#button_profile{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+#own_posts{
+    border: 5px solid #5ED6E7 ;
+
+    border-radius: 5px;
+    padding: 40px 50px ;
+
+}
+#post_img{
+    height: 300px;
+    width: 100%;
+}
